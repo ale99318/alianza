@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "¿Quiénes fueron dos delanteros que probablemente fueron titulares de Alianza Lima en la temporada 2005?",
+    question: "¿Quiénes fueron los delanteros  titulares de Alianza Lima en la temporada 2005?",
     options: [
       "Claudio Pizarro y Jefferson Farfán",
       "Flavio Maestri y Waldir Sáenz",
@@ -80,7 +80,7 @@ const questions = [
     answer: 2
   },
   {
-    question: "¿Qué jugador extranjero salió de Alianza Lima durante la temporada 2019?",
+    question: "¿Qué jugador salió vendido  de Alianza Lima durante la temporada 2019?",
     options: [
       "Mauricio Affonso",
       "Janio Pósito",
@@ -140,7 +140,7 @@ const questions = [
     answer: 1
   },
   {
-    question: "¿Quién probablemente fue el máximo goleador de Alianza Lima jugando como extremo en la temporada 2014?",
+    question: "¿Quién probablemente fue el máximo goleador de Alianza Lima jugando como extrangero en la temporada 2014?",
     options: [
       "Mauro Guevgeozián",
       "Lionard Pajoy",
@@ -180,7 +180,7 @@ const questions = [
     answer: 1
   },
   {
-    question: "¿Cuál de los siguientes canteranos de Alianza Lima probablemente debutó y tuvo un impacto significativo en la temporada 2016 o 2017?",
+    question: "¿Cuál de los siguientes jugadores de Alianza Lima probablemente debutó y tuvo un impacto significativo en la temporada 2016 o 2017?",
     options: [
       "Paolo Hurtado",
       "Sergio Peña",
@@ -229,16 +229,16 @@ const questions = [
     ],
     answer: 2
   },
-  {
-    question: "¿Cuál fue el marcador global de la final del Campeonato Nacional 2017 que ganó Alianza Lima?",
-    options: [
-      "1-0",
-      "2-1",
-      "0-0 (Alianza ganó por mejor posición en la tabla)",
-      "3-2"
-    ],
-    answer: 1
-  },
+ {
+  question: "¿Cuál fue el marcador final del último partido de Alianza Lima que lo coronó campeón nacional del 2017?",
+  options: [
+    "Comerciantes Unidos 0-1 Alianza Lima",
+    "Comerciantes Unidos 1-2 Alianza Lima", 
+    "Comerciantes Unidos 0-2 Alianza Lima",
+    "Comerciantes Unidos 1-1 Alianza Lima"
+  ],
+  answer: 0  // La opción "Comerciantes Unidos 0-1 Alianza Lima"
+}
   {
     question: "¿Qué marca deportiva vistió la camiseta de Alianza Lima durante la temporada 2015?",
     options: [
