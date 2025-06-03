@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Alianza Lima</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" id="main-menu">
+    <h1>Quiz Alianza Lima</h1>
+    <button class="menu-btn" onclick="startGame()">Jugar</button>
+    <button class="menu-btn" onclick="showSection('history')">Historia</button>
+    <button class="menu-btn" onclick="showSection('credits')">Créditos</button>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Escudo_Alianza_Lima.png" alt="Escudo de Alianza Lima" width="77" style="margin-top:24px;box-shadow:0 3px 18px #00195222;border-radius:10px;">
+  </div>
+
+  <!-- Quiz Section -->
+  <div class="container hidden" id="quiz-section">
+    <div class="quiz-header">
+      Pregunta <span id="current-question"></span> de 30
+    </div>
+    <div class="score-board" id="score-board" style="display:none;"></div>
+    <div class="quiz-question" id="quiz-question"></div>
+    <div class="quiz-options" id="quiz-options"></div>
+    <button class="back-btn" onclick="backToMenu()">Volver al menú</button>
+  </div>
+
+  <!-- Historia -->
+  <div class="container hidden" id="history-section">
+    <div class="section-title">Historia de Alianza Lima</div>
+    <div class="section-body">
+      El Club Alianza Lima, fundado el 15 de febrero de 1901, es uno de los clubes más emblemáticos y populares del fútbol peruano y sudamericano. Con sede en Lima, el club ha forjado una rica historia de triunfos, pasión y una identidad única que trasciende generaciones. 
+      <br><br>
+      Alianza Lima ha ganado múltiples títulos nacionales, ha formado jugadores legendarios y es conocido por la fidelidad de su hinchada y su mítica camiseta blanquiazul.
+    </div>
+    <button class="back-btn" onclick="backToMenu()">Volver al menú</button>
+  </div>
+
+  <!-- Créditos -->
+  <div class="container hidden" id="credits-section">
+    <div class="section-title">Créditos</div>
+    <div class="section-body">
+      Proyecto de juego desarrollado para fans de Alianza Lima.<br>
+      Diseño y código: <strong>BLACKBOXAI</strong>.<br>
+      Preguntas proporcionadas por la comunidad.<br>
+      Basado en amor por el Club Alianza Lima.<br>
+      <br>
+      <small>Escudo oficial propiedad de Club Alianza Lima.</small>
+    </div>
+    <button class="back-btn" onclick="backToMenu()">Volver al menú</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
